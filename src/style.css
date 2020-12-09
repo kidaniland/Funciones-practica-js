@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    width:100%; 
+	overflow:hidden;
+    background: #008080;
+    height: 14rem;
+    margin-top: -5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper {
+	width:90%; 
+	max-width: 81rem; 
+	margin:auto;
+	overflow:hidden;
+}
+ 
+header .logo {
+	color:#f2f2f2;
+	font-size: 5rem;
+	line-height: 18rem;
+	float:left;
+}
+ 
+header nav {
+	float:right;
+	line-height:20rem;
+}
+ 
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding: 1rem 2rem;
+	line-height:normal;
+	font-size: 2rem;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+header nav a:hover {
+	background:#f56f3a;
+	border-radius: 5rem;
+}
