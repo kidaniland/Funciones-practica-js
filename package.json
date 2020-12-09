@@ -4,7 +4,8 @@
   "description": "practica jest de ejercicios 41-45",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
