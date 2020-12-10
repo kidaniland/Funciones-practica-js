@@ -28,6 +28,22 @@ const inputIntNumber = document.getElementById('enteros');
 const spanNumDivisor = document.getElementById('dobleDivisor');
 let doubleDiv = 0;
 
+//DEZPLAZAMIENTO DESDE HEADER
+const linkHeader = document.querySelectorAll(".header a");
+for (const link of linkHeader){
+  link.addEventListener('click', function(e){
+      e.preventDefault();
+      const href = this.getAttribute("href"); //puede ser contenido o card
+      const offsetTop = document.querySelector(href).offsetTop;
+      //console.log("MIRAAA LA DISTANCIA>>>",offsetTop);
+    
+      scroll({
+        top: offsetTop,
+        behavior: "smooth"
+      });
+      console.log(">>>", href);
+  })
+}
 
 //---------------EVENTOS DE LOS BOTONES------------------------
 //Exercise 41

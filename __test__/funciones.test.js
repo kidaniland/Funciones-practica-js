@@ -44,6 +44,6 @@ describe('funciones.numDivisor', () => {
         expect(typeof funciones.numDivisor).toBe('function');
     });
     test('debería retornar 1 para 23', () => {
-        expect(funciones.numDivisor(23)).toBe(1);
+        expect(funciones.numDivisor(23)).toBe(2);
     });
 });
